@@ -1,0 +1,3 @@
+[submodule ".github/workflows/walter-ci"]
+	path = .github/workflows/walter-ci
+	url = https://github.com/piotr-yuxuan/walter-ci
