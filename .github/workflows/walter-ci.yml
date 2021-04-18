@@ -1,0 +1,13 @@
+name: Walter CI
+on:
+  push:
+    branches: '*'
+  pull_request:
+    branches: '*'
+  schedule:
+    - cron: "0 0 1 * *"
+jobs:
+  version:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: piotr-yuxuan/walter-ci@main # use branch main
